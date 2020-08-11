@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-08-10_2016",
+    "name": "Wokisapp",
     "currentPage": "index.html",
     "theme": {
       "name": "dinerm4",
@@ -41,6 +41,14 @@
         "url": "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
+    "PWA": {
+      "enabled": true
+    },
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "siteUrl": "undefined",
+    "pwa-switcher": "on",
     "uniqCompNum": 2,
     "versionPublish": "4.10.15"
   },
