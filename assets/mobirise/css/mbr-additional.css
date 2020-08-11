@@ -1103,7 +1103,7 @@ a {
 .cid-s7ksAXRiNG {
   padding-top: 150px;
   padding-bottom: 0px;
-  background-color: #f2f6ff;
+  background-color: #ffffff;
   position: relative;
   overflow: hidden;
 }
@@ -1117,10 +1117,10 @@ a {
 .cid-s7ksAXRiNG #e3_circle,
 .cid-s7ksAXRiNG #e4_circle,
 .cid-s7ksAXRiNG #e5_circle {
-  fill: #e1e8ff !important;
+  fill: #b2ccd2 !important;
 }
 .cid-s7ksAXRiNG #e6_circle {
-  fill: #fff4e2 !important;
+  fill: #ffffff !important;
 }
 @keyframes orbit {
   from {
@@ -1141,7 +1141,7 @@ a {
 .cid-s7ksAXRiNG .round {
   border-radius: 100%;
   position: absolute;
-  background-color: #e1e8ff;
+  background-color: #b2ccd2;
   animation: orbit 4s linear infinite;
 }
 .cid-s7ksAXRiNG .rev {
