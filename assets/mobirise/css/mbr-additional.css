@@ -1117,7 +1117,7 @@ a {
 .cid-s7ksAXRiNG #e3_circle,
 .cid-s7ksAXRiNG #e4_circle,
 .cid-s7ksAXRiNG #e5_circle {
-  fill: #cff8e7 !important;
+  fill: #dffbef !important;
 }
 .cid-s7ksAXRiNG #e6_circle {
   fill: #ffffff !important;
@@ -1141,7 +1141,7 @@ a {
 .cid-s7ksAXRiNG .round {
   border-radius: 100%;
   position: absolute;
-  background-color: #cff8e7;
+  background-color: #dffbef;
   animation: orbit 4s linear infinite;
 }
 .cid-s7ksAXRiNG .rev {
