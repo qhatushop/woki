@@ -64,7 +64,7 @@
     "google-analytics": "",
     "siteUrl": "undefined",
     "pwa-switcher": "on",
-    "uniqCompNum": 2,
+    "uniqCompNum": 3,
     "versionPublish": "4.10.15"
   },
   "pages": {
@@ -537,6 +537,59 @@
           "_once": false,
           "_params": {},
           "_anchor": "header01-1"
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".section-text": {
+              "padding": "2rem 0",
+              "letter-spacing": "0.03em"
+            },
+            ".inner-container": {
+              "margin": "0 auto",
+              "position": "relative",
+              ".mbr-iconfont": {
+                "z-index": "1",
+                "position": "absolute",
+                "font-size": "9rem",
+                "color": "#efefef",
+                "opacity": ".1",
+                "&.left-top": {
+                  "left": "-1rem",
+                  "top": "-1rem"
+                },
+                "&.right-down": {
+                  "right": "-1rem",
+                  "bottom": "-1rem"
+                }
+              },
+              ".section-text": {
+                "z-index": "3",
+                "min-height": "10rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              },
+              ".mbr-iconfont": {
+                "font-size": "6rem !important"
+              }
+            }
+          },
+          "_name": "extContent13",
+          "_customHTML": "<section class=\"mbr-section article extСontent\" group=\"Additional Blocks\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"89\">\n<!--         <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"20\"> -->\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#635a51\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <!-- <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\"> -->\n            <span mbr-icon class=\"mbr-iconfont inactive mbri-quote-left left-top\">\n            </span>\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    Con tu tienda virtual tu negocio nunca para,<br>no tendrás tiempo ni para tomar un refresco</div>\n            <span mbr-icon class=\"mbr-iconfont inactive mbri-quote-right right-down\">\n            </span>\n            <!-- <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\"> -->\n        </div>\n    </div>\n</section>",
+          "_cid": "s7kpGRcO9I",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "extContent13-2"
         }
       ]
     }
