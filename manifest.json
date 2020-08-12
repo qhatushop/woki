@@ -1,1 +1,1 @@
-{"name":"Wokisapp","short_name":"Wokisapp","start_url":"/","display":"standalone","theme_color":"#e67b0f","background_color":"#e67b0f","icons":[{"src":"assets/icons/512x512.png","sizes":"512x512","type":"image/png"}]}
+{"name":"Wokisapp","short_name":"Wokisapp","start_url":"/","display":"standalone","theme_color":"#ec820e","background_color":"#ec820e","icons":[{"src":"assets/icons/512x512.png","sizes":"512x512","type":"image/png"}]}
