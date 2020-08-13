@@ -42,10 +42,10 @@ body {
 }
 .display-7 {
   font-family: 'Hind Vadodara', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.44rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -74,9 +74,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.28rem;
-    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -574,10 +574,10 @@ a:hover {
 }
 .form-control {
   font-family: 'Hind Vadodara', sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.92rem;
+  font-size: 1.44rem;
 }
 blockquote {
   border-color: #ec820e;
@@ -1112,7 +1112,7 @@ a {
   color: #e67b0f;
 }
 .cid-s7l4xlVmAC {
-  padding-top: 75px;
+  padding-top: 0px;
   padding-bottom: 15px;
   background-color: #ffffff;
 }
